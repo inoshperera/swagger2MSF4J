@@ -160,7 +160,7 @@ public class JavaMSF4JServerCodegen extends AbstractJavaJAXRSServerCodegen {
 
     @Override
     public String toModelName(String name) {
-        return name + "DTO";
+        return name;
     }
 
 
